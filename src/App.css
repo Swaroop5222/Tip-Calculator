@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Background  */
+body {
+  min-height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.8rem;
+  background-color: #34e6e6; /* sky blue */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2e2e2e;
+}
+/* Card */
+.App {
+  width: 38rem;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  padding: 2.4rem;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 2.2rem;          
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding: 1rem;              
+  background-color: #e63446;  
+  color: #f8f8f8;             
+  border-radius: 0.8rem;
+}
+/* Content spacing */
+.App > div {
+  padding: 2.4rem;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+/* Inputs & select */
+input,
+select {
+  width: 100%;
+  background-color: #f9fafb;
+  color: #111827;
+  border: 1px solid #d1d5db;
+  border-radius: 0.8rem;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+/* Output */
+h3 {
+  background-color: #f3f4f6;
+  color: #111827;
+  padding: 1.6rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1.6rem;
+  font-weight: 700;
+}
+
+/* Button */
+button {
+  width: 100%;
+  background-color: #e63446;
+  color: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1.6rem;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(99, 102, 241, 0.4);
+}
+
+button:active {
+  transform: scale(0.97);
+}
